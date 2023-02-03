@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>feeding__c</fullName>
+    <externalId>false</externalId>
+    <label>feeding</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Carnivoro</fullName>
+                <default>false</default>
+                <label>Carnivoro</label>
+            </value>
+            <value>
+                <fullName>Hervivoro</fullName>
+                <default>false</default>
+                <label>Hervivoro</label>
+            </value>
+            <value>
+                <fullName>Onnivoro</fullName>
+                <default>false</default>
+                <label>Onnivoro</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>
